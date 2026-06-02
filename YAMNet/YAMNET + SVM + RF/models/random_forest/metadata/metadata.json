@@ -1,0 +1,15 @@
+{
+    "classes": [
+        "Clutch-Shoe",
+        "Conecting-Rod",
+        "Drive-Belt",
+        "Piston",
+        "Tensioner",
+        "Slider",
+        "Roller",
+        "Face-Drive"
+    ],
+    "num_classes": 8,
+    "feature_extractor": "YAMNet",
+    "embedding_size": 1024
+}

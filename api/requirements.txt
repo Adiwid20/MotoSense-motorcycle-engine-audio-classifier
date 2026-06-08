@@ -1,0 +1,21 @@
+# MotoSense API — Python dependencies
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+
+# ML / audio
+tensorflow>=2.15.0
+tensorflow-hub>=0.16.0
+librosa>=0.10.2
+joblib>=1.3.2
+scikit-learn>=1.4.0
+numpy>=1.26.0
+soundfile>=0.12.1
+
+# Required for UploadFile / multipart form
+python-multipart>=0.0.9
+
+# Pydantic v2 (bundled dengan FastAPI ≥ 0.100)
+pydantic>=2.0.0
+
+# PENTING: tensorflow_hub bergantung pkg_resources yang hilang di setuptools>=81
+# Jalankan: pip install "setuptools<81" --force-reinstall  jika ada error distutils/pkg_resources
